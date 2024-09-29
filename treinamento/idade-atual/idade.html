@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra a idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>Descobrindo a idade, pelo ano de nascimento!</header>
+
+    <section>
+        <div>Ano de nascimento:
+            <input type="number" name="ano" id="ano">
+        </div>
+        <div>
+            Sexo:
+                <input type="radio" name="sex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="sex" id="fem">
+                <label for="fem">Femenino</label>
+            
+        </div>
+        <input type="button" value="Verificar" onclick="verificar()">
+        <div id="res">
+
+        </div>
+
+    </section>
+
+    <footer>&Copf;<strong>FooterWork</strong></footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma em script</title>
+    <style>
+        body{
+            font: normal 20pt arial;
+        }
+        div#resultado{
+            margin-top: 20px;
+        }
+        input{
+            font: normal 20pt arial;
+            width: 100px;
+        }
+        a{
+            font: normal 14pt arial;
+    
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Testando a maquina!</h1>
+    <input type="number" name="txt1" id="txt1"> +
+    <input type="number" name="txt2" id="txt2">
+    <input type="button" value="somar" onclick="somar()">
+    <div id="resultado">Resultado</div>
+    <p><a href="scindex.html">Voltar ao jogo</a></p>
+    <script>
+
+        function somar(){
+        var t1 = window.document.getElementById('txt1')
+        var t2 = window.document.getElementById('txt2')
+        var res = window.document.getElementById('resultado')
+        var n1 = Number (txt1.value)
+        var n2 = Number (txt2.value)
+        var s = n1 + n2
+        res.innerHTML = `A soma entre ${n1} mais ${n2} é igual a ${s}`
+
+        }
+
+    </script>
+
+</body>
+</html>

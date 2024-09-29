@@ -1,0 +1,34 @@
+body{
+    background: rgb(105, 105, 219);
+    font: normal 15 pt arial;
+}
+header {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    box-shadow: 1px 1px 10px black;
+    background: radial-gradient(black, transparent);
+}
+section{
+    background: white;
+    width: 500px;
+    box-shadow: 3px 3px 10px;
+    padding: 18px;
+    border-radius: 8px;
+    margin: auto;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+div input:hover{
+    color: chartreuse;
+}
+div#res{
+    list-style: none;
+    
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
